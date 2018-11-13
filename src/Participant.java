@@ -6,4 +6,8 @@ public class Participant {
     private boolean isLeader = false;
     private String cyclistType;
     private Team team;
+
+    public Participant(){
+
+    }
 }
