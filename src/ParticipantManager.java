@@ -5,12 +5,17 @@ public class ParticipantManager {
 
     private ArrayList<Participant> participant = new ArrayList();
 
-    public addParticipant(new Participant()) {
+    /*
+    public ArrayList addParticipant(new Participant()) {
 
 
         return participant;
     }
+    */
 
+    public ArrayList getParticipant() {
+        return participant;
+    }
 
 
 
