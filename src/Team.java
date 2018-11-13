@@ -4,9 +4,16 @@ import java.util.ArrayList;
 
 public class Team {
 
-    private ArrayList <Participants> participant = new ArrayList();
+    private String teamName;
+    private Participant leader;
 
-    private static void addParticipant(){
+    private ArrayList <Participant> participantArray = new ArrayList();
+
+    public void addParticipant(){
+
+    }
+
+    public void removeParticipant(){
 
     }
 }
