@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//Max
+//Max Gammelgaard, racist!
 public class LoginController {
 public void run()
 
