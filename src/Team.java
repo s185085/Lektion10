@@ -10,7 +10,7 @@ public class Team {
     private ArrayList <Participant> participantArray = new ArrayList();
 
     public void addParticipant(){
-
+        participantArray.add();
     }
 
     public void removeParticipant(){
