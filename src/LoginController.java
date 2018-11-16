@@ -3,7 +3,8 @@ import java.util.Scanner;
 //Max Gammelgaard, racist!
 public class LoginController {
 
-    private ParticipantManager PM = new ParticipantManager();
+    private ParticipantManager pM = new ParticipantManager();
+    private ParticipantController pC = new ParticipantController();
 
     public void run() {
         Scanner keyboard = new Scanner(System.in);
@@ -11,7 +12,7 @@ public class LoginController {
         String inputUsername = keyboard.nextLine();
         String inputPassword = keyboard.nextLine();
 
-        if (inputUsername.equals(PM.getParticipant()) && inputPassword.equals(PM.getParticipant())) {
+        if (inputUsername.equals(pM.getParticipant()) && inputPassword.equals(pM.getParticipant())) {
 
             System.out.println("Login successful");
         } else {
@@ -19,7 +20,7 @@ public class LoginController {
         }
 
         // if username and password is correct become currentParticipant
-        if (inputUsername.equals(PM.getParticipant()) && inputPassword.equals(PM.getParticipant())){
+        if (inputUsername.equals(pM.getParticipant()) && inputPassword.equals(pM.getParticipant())){
 
 
 
