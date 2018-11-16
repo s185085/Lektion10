@@ -9,7 +9,7 @@ public class TeamManager {
     public TeamManager(){}
 
 
-    public void addTeam(String teamName, String teamLeader) {
+    public void addTeam(String teamName, Participant teamLeader) {
 
     }
 
