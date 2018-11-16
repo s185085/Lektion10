@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class LoginController {
 
     private ParticipantManager pM = new ParticipantManager();
-    private ParticipantController pC = new ParticipantController();
 
     public void run() {
         Scanner keyboard = new Scanner(System.in);
