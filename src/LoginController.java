@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//Max Gammelgaard, racist!
+//Max Gammelgaard
 public class LoginController {
 
     private ParticipantManager pM = new ParticipantManager();
@@ -20,8 +20,6 @@ public class LoginController {
 
         // if username and password is correct become currentParticipant
         if (inputUsername.equals(pM.getParticipant()) && inputPassword.equals(pM.getParticipant())){
-
-
 
         }
 
